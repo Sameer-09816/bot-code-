@@ -7,7 +7,7 @@ const express = require('express');
 const axiosRetry = require('axios-retry').default;
 
 // MODIFIED: No need for APP_URL or PORT from .env, Vercel handles this.
-const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_BOT_TOKEN = "8290427504:AAE5ACm2Kfc2aez3mDiq0IZCBCgpmpKiL68";
 
 const INSTAGRAM_API_URL = "https://igapi.sktoolkit.com/download?url=";
 const MAX_FILE_SIZE = 49 * 1024 * 1024; // 49 MB
